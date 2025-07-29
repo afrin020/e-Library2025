@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="mainPane" fx:id="mainPane" prefHeight="842.0" prefWidth="939.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="98.0" fitWidth="96.0" layoutX="168.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@SMUCT-logo-01.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="303.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome SMUCT E-Library" wrappingWidth="483.99609375">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Accordion layoutX="53.0" layoutY="175.0">
+        <panes>
+          <TitledPane animated="false" prefHeight="206.0" prefWidth="202.0" text="BBA Dept Book">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="20.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Principles of Management">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marketing Management">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Financial Accounting">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Organizational Behavior">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Operations Management">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="FDT Dept Book">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="21.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patternmaking for FD">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="21.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fashion System">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="22.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sketchbook">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="22.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Costume and Style">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="22.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fashion Design Principles">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+            <TitledPane animated="false" layoutX="10.0" layoutY="60.0" text="GDM Dept Book">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" layoutX="10.0" layoutY="85.0" prefHeight="332.0" prefWidth="202.0" text="Bangla Dept Book">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="231.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="18.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ভালোবাসি প্রিয়তম" wrappingWidth="125.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="স্বপ্ন জয়ের কান্ডারি" wrappingWidth="125.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="প্রেয়সী বাংলা রুপসী অনন্যা" wrappingWidth="177.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="বৈজ্ঞানিক কল্পকাহিনী প্রডিজি" wrappingWidth="177.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="জীবন্ত মৃত্যুর মত" wrappingWidth="177.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="রুপসী বিহঙ্গিনী" wrappingWidth="177.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="আসামি হাজির" wrappingWidth="177.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="দৌড়ে পালাই" wrappingWidth="177.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="18.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="২৯ এর আলম ভাই এর বিয়ে" wrappingWidth="177.771484375">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+          <TitledPane animated="false" text="CSE Dept Book">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Searching" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="313.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../OOSD_Final_Lab-main/OOSD_Final_Lab-main/src/eLibrary2024/images/download%20(7).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="296.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fundamentals of Computer Algorithms" textAlignment="CENTER" wrappingWidth="120.09765625" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="453.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../OOSD_Final_Lab-main/OOSD_Final_Lab-main/src/eLibrary2024/images/download%20(6).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="446.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduction to Algorithms" textAlignment="CENTER" wrappingWidth="120.09765625" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="623.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(8).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="602.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduction to Algorithms" textAlignment="CENTER" wrappingWidth="120.09765625" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="773.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(9).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="762.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Introduction to Algorithms" textAlignment="CENTER" wrappingWidth="120.09765625" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="313.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(10).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="296.0" layoutY="531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buried  pipe technology" textAlignment="CENTER" wrappingWidth="120.09765625" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="463.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(11).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="456.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Timing for animation" textAlignment="CENTER" wrappingWidth="109.81233215332031" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="623.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(13).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="616.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gardner's Art through the ages" textAlignment="CENTER" wrappingWidth="109.81233215332031" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="773.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(14).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="776.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thinking with ype" textAlignment="CENTER" wrappingWidth="109.81233215332031" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="313.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(15).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="296.0" layoutY="731.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buried  pipe technology" textAlignment="CENTER" wrappingWidth="120.09765625" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="463.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(16).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="456.0" layoutY="731.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bridgman's complete guide" textAlignment="CENTER" wrappingWidth="120.09765625" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="623.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(17).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="606.0" layoutY="731.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rig it right" textAlignment="CENTER" wrappingWidth="120.09765625" />
+      <ImageView fitHeight="128.0" fitWidth="110.0" layoutX="783.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/download%20(18).jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="766.0" layoutY="731.0" strokeType="OUTSIDE" strokeWidth="0.0" text="An essential introduction " textAlignment="CENTER" wrappingWidth="120.09765625" />
+   </children>
+</AnchorPane>
